@@ -8,7 +8,7 @@ This is an automation testing project for various technical functionalities of t
 
 
 ## :pushpin: Inspiration and personal purpose :chart_with_upwards_trend:
-
+This automation project was created to practice personal automation skills and to develop a more complex suite of automated tests that mimic as closely as possible the flow of a normal user on the platform (ex: login, searched through sections, searched in the search field, selected results, add to wishlist or in the cart, logout).
 
 
 
