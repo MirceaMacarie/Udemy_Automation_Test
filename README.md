@@ -8,7 +8,7 @@ This is an automation testing project for various technical functionalities of t
 
 
 ## :pushpin: Inspiration and personal purpose :chart_with_upwards_trend:
-This automation project was created to practice personal automation skills and to develop a more complex suite of automated tests that mimic as closely as possible the flow of a normal user on the platform (ex: login, searched through sections, searched in the search field, selected results, add to wishlist or in the cart, logout).
+This automation project was created to practice personal automation skills and to develop a more complex suite of automated tests that mimic as closely as possible the flow of a normal user on the platform (ex: login, search through sections, search in the search box, select results, add to wishlist or in the cart, logout).
 
 
 
@@ -50,9 +50,10 @@ As support, I used **the website https://www.udemy.com/** for these automation t
 
 
 ## :pushpin: Testing objectives :microscope:
-
-
-
+This project was thought as a way to:
++ to check the **general functionality of the website**
++ to think and develop **automatic tests that imitate the flow of a normal user** accessing the site
++ to check **certain static details (buttons, titles, text, etc.)**.
 
 
 
@@ -60,7 +61,7 @@ As support, I used **the website https://www.udemy.com/** for these automation t
 
 
 ## :pushpin: Demo videos of the Automation test :clapper:
-
+A **short video** on how this automated test works and what are the checked points.
 
 
 
