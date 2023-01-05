@@ -60,9 +60,20 @@ This project was thought as a way to:
 
 
 
-## :pushpin: Demo videos of the Automation test :clapper:
-A **short video** on how this automated test works and what are the checked points.
-
+## :pushpin: The automated tests and their theoretical execution 
+For technical and security reasons, Udemy's official website is protected from automatic access by various such frameworks, like WebdriverIO.
+Therefore, running and video recording of the automated test suite execution was not possible. The automated tests that were to be run are listed below:
+1. 
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+11.
 
 
 
