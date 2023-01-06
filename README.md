@@ -63,37 +63,52 @@ This project was thought as a way to:
 ## :pushpin: The automated tests and their theoretical execution 
 :bangbang: For technical and security reasons, Udemy's official website is protected from automatic access by various such frameworks, like WebdriverIO.
 Therefore, **running and video recording of the automated test suite execution was not possible.** The automated tests that were to be run are listed below:
-1. "Should have the correct page title"
+
+1. **"Should have the correct page title"**
   + Open the main page of the website
   + Verify if the Login page has a specific title
   + Closed the pop-up window for cookies by clicking OK button
  
-2. "Should change the language of the website"
-
-3. "Should login with correct credentials"
-
-4. "Should have the correct Title for main page"
-
-5. "Should verify the button for Finance & Accounting section"
-
-6. "Should verify the button for Personal Development section"
-
-7. "Should verify the search box"
-
-8. "Should select one course at a time from the list of results"
-
-9. "Should add the selected course to Wishlist"
-
-10. "Should select a course from Wishlist and add to Cart"
-
-11. "Should log out from the website"
-
-
-
-
-
-
-
-
-
-
+2. **"Should change the language of the website"**
+  + Change the language of the website from Romanian to English (languages, then English button)
+  
+3. **"Should login with correct credentials"**
+  + Click on the Log in Button
+  + Set the email in the Email input
+  + Set the Password in the Password input
+  + Pause the execution of the test for 2 seconds
+  + After checking the reCAPTCHA button, click on the Login button
+  
+4. **"Should have the correct Title for main page"**
+  + Check if the main page after log in has the correct title
+  
+5. **"Should verify the button for Finance & Accounting section"**
+  + It is expected the Finance & Accounting button to be displayed for users
+  + The Finance & Accounting button should work properly
+  + Pause the execution of the test for 2 seconds
+  
+6. **"Should verify the button for Personal Development section"**
+  + Navigate to the previous webpage of the site
+  + It is expected the Personal Development button to be displayed for users
+  + The Personal Development button should work properly
+  + Verify one of the next section, Career Development button
+  + Pause the execution of the test for 2 seconds
+  
+7. **"Should verify the search box"**
+  + Search in the specific box 'front end' and see the results
+  + Scroll down the results page and select Beginner level and >4,5 rating criteria
+  
+8. **"Should select one course at a time from the list of results"**
+  + Click on a course from the list, page back, then select another ( x3 times)
+  
+9. **"Should add the selected course to Wishlist"**
+  + Click on the button to add the course to the Favorite list
+  + Click to see the complete list with Favourite
+  
+10. **"Should select a course from Wishlist and add to Cart"**
+  + Click on the button to add the course to the Cart
+  + Remove the selected course from Cart
+  
+11. **"Should log out from the website"**
+  + At the end of the test, click on the Logout button
+  + Close the open browser window
