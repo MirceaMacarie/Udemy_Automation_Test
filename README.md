@@ -60,7 +60,7 @@ This project was thought as a way to:
 
 
 
-## :pushpin: The automated tests and their theoretical execution 
+## :pushpin: The automated tests and their theoretical execution :clipboard:
 :bangbang: For technical and security reasons, Udemy's official website is protected from automatic access by various such frameworks, like WebdriverIO.
 Therefore, **running and video recording of the automated test suite execution was not possible.** The automated tests that were to be run are listed below:
 
