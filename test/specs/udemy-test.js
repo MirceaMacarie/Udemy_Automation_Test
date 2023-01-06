@@ -144,7 +144,7 @@ describe('Udemy.com', () => {
         const cartButton = await $('.ud-btn ud-btn-large ud-btn-brand ud-heading-md add-to-cart');
         const goToCartButton = await $('.ud-btn ud-btn-large ud-btn-primary ud-heading-md styles--go-to-cart--2K-KE');
 
-        // Click on the button to add the course to the Favorite list
+        // Click on the button to add the course to the Cart
         await courseButton.click();
         await cartButton.click();
         await goToCartButton.click();
