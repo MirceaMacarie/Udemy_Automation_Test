@@ -63,17 +63,17 @@ This project was thought as a way to:
 ## :pushpin: The automated tests and their theoretical execution 
 For technical and security reasons, Udemy's official website is protected from automatic access by various such frameworks, like WebdriverIO.
 Therefore, running and video recording of the automated test suite execution was not possible. The automated tests that were to be run are listed below:
-1. 
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
-10.
-11.
+1. "Should have the correct page title"
+2. "Should change the language of the website'
+3. "Should login with correct credentials'
+4. "Should have the correct Title for main page'
+5. "Should verify the button for Finance & Accounting section'
+6. "Should verify the button for Personal Development section'
+7. "Should verify the search box'
+8. "Should select one course at a time from the list of results'
+9. "Should add the selected course to Wishlist'
+10. "Should select a course from Wishlist and add to Cart'
+11. "Should log out from the website'
 
 
 
